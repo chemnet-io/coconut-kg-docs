@@ -37,16 +37,16 @@
         "value" : "Copyright © 2022 ChemNet",
         "type" : "label"
       } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "SNAPSHOT",
-        "type" : "label"
-      } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "http://coconut-kg.aksw.org/ontology#",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "SNAPSHOT",
         "type" : "label"
       } ],
       "title" : [ {
@@ -62,52 +62,64 @@
     "id" : "16",
     "type" : "owl:Class"
   }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
     "id" : "14",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
     "type" : "owl:Class"
   }, {
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "84",
+    "id" : "15",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "107",
+    "id" : "112",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "15",
+    "id" : "39",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "108",
+    "id" : "113",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "109",
+    "id" : "114",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "110",
+    "id" : "115",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "70",
+    "id" : "72",
     "type" : "owl:Class"
   }, {
-    "id" : "92",
+    "id" : "96",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "86",
+    "id" : "90",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "65",
+    "id" : "68",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "18",
@@ -116,70 +128,49 @@
     "id" : "19",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "49",
+    "id" : "53",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "44",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
-    "type" : "owl:Class"
-  }, {
-    "id" : "72",
+    "id" : "75",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "116",
+    "id" : "121",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "51",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "119",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "56",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "120",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "33",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "68",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "58",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "30",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "78",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "123",
+    "id" : "55",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "124",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "127",
+    "id" : "59",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "130",
+    "id" : "125",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "131",
+    "id" : "37",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "115",
+    "id" : "70",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "132",
+    "id" : "61",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "2",
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "4",
@@ -188,49 +179,49 @@
     "id" : "133",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "100",
+    "id" : "134",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "102",
+    "id" : "135",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "36",
-    "type" : "owl:Class"
+    "id" : "105",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "22",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "143",
+    "id" : "64",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "144",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "61",
+    "id" : "146",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "147",
     "type" : "rdfs:Datatype"
   }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "148",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "149",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "150",
+    "id" : "151",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "88",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "96",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "152",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "40",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "153",
@@ -239,37 +230,58 @@
     "id" : "154",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "67",
-    "type" : "owl:Class"
+    "id" : "155",
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "47",
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "158",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "159",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "106",
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "12",
+    "id" : "166",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "129",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "162",
+    "id" : "167",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "118",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "38",
+    "id" : "111",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "163",
+    "id" : "12",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "113",
+    "id" : "138",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "127",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "98",
@@ -278,94 +290,85 @@
     "id" : "9",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "135",
+    "id" : "157",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "26",
+    "id" : "174",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "165",
+    "id" : "27",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "122",
+    "id" : "170",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "94",
+    "id" : "180",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "173",
+    "id" : "83",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "80",
+    "id" : "85",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "82",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "171",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "42",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "176",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "139",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "76",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "178",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "74",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "6",
-    "type" : "owl:Class"
-  }, {
-    "id" : "185",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "186",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "188",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "104",
+    "id" : "179",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "45",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "189",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "54",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "90",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "146",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "141",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "28",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "183",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "24",
+    "id" : "142",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "194",
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "191",
     "type" : "rdfs:Datatype"
   } ],
   "classAttribute" : [ {
@@ -377,9 +380,21 @@
       "en" : "Molecular properties"
     },
     "comment" : {
-      "en" : "Molecular properties of a compound"
+      "en" : "Molecular properties of a chemical compound."
     },
     "id" : "16"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#MolecularFragments",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MolecularFragments",
+      "en" : "Molecular fragments"
+    },
+    "comment" : {
+      "en" : "Lists of circular fragments (molecular signatures) and functional fragments(ERTL) of a chemical compound."
+    },
+    "id" : "28"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#Geolocation",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
@@ -405,31 +420,67 @@
       "labels" : { }
     } ],
     "attributes" : [ "external" ],
-    "id" : "31"
+    "id" : "35"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#Descriptors",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Descriptors",
+      "en" : "Descriptors"
+    },
+    "comment" : {
+      "en" : "Descriptors of a chemical compound."
+    },
+    "id" : "49"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#MolecularDescriptors",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
     "instances" : 0,
     "label" : {
       "IRI-based" : "MolecularDescriptors",
-      "en" : "Molecular Descriptors"
+      "en" : "Molecular descriptors"
     },
     "comment" : {
-      "en" : "Descriptors of the molecule"
+      "en" : "Molecular descriptors of a chemical compound."
     },
-    "id" : "8"
+    "id" : "24"
   }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#AnalyticData",
+    "iri" : "http://coconut-kg.aksw.org/ontology#TopologicalDescriptors",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "AnalyticData",
-      "en" : "Analytic data"
+      "IRI-based" : "TopologicalDescriptors",
+      "en" : "Topological descriptors"
     },
     "comment" : {
-      "en" : "The analytic data of a compound"
+      "en" : "Topological descriptors of a chemical compound."
     },
-    "id" : "21"
+    "id" : "8"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#GeometricalDescriptors",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GeometricalDescriptors",
+      "en" : "Geometrical descriptors"
+    },
+    "comment" : {
+      "en" : "Geometrical descriptors of a chemical compound."
+    },
+    "id" : "86"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#ElectronicDescriptors",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectronicDescriptors",
+      "en" : "Electronic descriptors"
+    },
+    "comment" : {
+      "en" : "Electronic descriptors of a chemical compound."
+    },
+    "id" : "32"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#Compound",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
@@ -443,11 +494,11 @@
     },
     "id" : "1"
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "84",
+    "id" : "15",
     "label" : {
-      "IRI-based" : "int"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#UniqueIdentifiers",
@@ -458,43 +509,43 @@
       "en" : "Unique Identifiers"
     },
     "comment" : {
-      "en" : "Unique identifiers of a molecular compound like smiles, inchikeys"
+      "en" : "Unique identifiers of a chemical compound like smiles and inchikeys."
     },
     "id" : "11"
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "107",
+    "id" : "112",
     "label" : {
-      "IRI-based" : "double"
+      "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "15",
+    "id" : "39",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "108",
+    "id" : "113",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "109",
+    "id" : "114",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "110",
+    "id" : "115",
     "label" : {
-      "IRI-based" : "float"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#Taxonomy",
@@ -505,27 +556,27 @@
       "en" : "Taxonomy"
     },
     "comment" : {
-      "en" : "TODO Work in progress, data is shit here"
+      "en" : "Taxonomy data of a chemical compound."
     },
-    "id" : "70"
+    "id" : "72"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "92",
+    "id" : "96",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "86",
+    "id" : "90",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "65",
+    "id" : "68",
     "label" : {
       "IRI-based" : "float"
     }
@@ -538,7 +589,7 @@
       "en" : "Fingerprint"
     },
     "comment" : {
-      "en" : "Fingerprint and bitstrings of a chemical compound"
+      "en" : "Fingerprint and bitstrings of a chemical compound."
     },
     "id" : "18"
   }, {
@@ -551,7 +602,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "49",
+    "id" : "53",
     "label" : {
       "IRI-based" : "string"
     }
@@ -564,153 +615,99 @@
       "en" : "Data origin source"
     },
     "comment" : {
-      "en" : "The origin of a compounds data"
+      "en" : "The origin of a chemical compounds data"
     },
-    "id" : "44"
-  }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#Class",
-    "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Class",
-      "en" : "Unknown"
-    },
-    "comment" : {
-      "en" : "values currently not used but present in the data TODO"
-    },
-    "id" : "35"
+    "id" : "47"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "72",
+    "id" : "75",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "116",
+    "id" : "121",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "51",
+    "id" : "55",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "119",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "56",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "120",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "33",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "68",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "58",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "30",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "78",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "123",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "124",
     "label" : {
-      "IRI-based" : "int"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "127",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "130",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "131",
+    "id" : "128",
     "label" : {
       "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "115",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "132",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "2",
-    "label" : {
-      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -727,28 +724,47 @@
       "IRI-based" : "string"
     }
   }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "100",
+    "id" : "135",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "102",
+    "id" : "105",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#String",
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "instances" : 0,
+    "id" : "107",
     "label" : {
-      "IRI-based" : "String"
-    },
-    "attributes" : [ "external" ],
-    "id" : "36"
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -757,93 +773,107 @@
       "IRI-based" : "float"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "143",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "144",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "61",
+    "id" : "64",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "147",
     "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
       "IRI-based" : "float"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "148",
     "label" : {
-      "IRI-based" : "int"
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "149",
+    "id" : "88",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "150",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "88",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "96",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "152",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "double"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "40",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "153",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "154",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "155",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "100",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
     "label" : {
       "IRI-based" : "int"
     }
@@ -856,48 +886,39 @@
       "en" : "Molecular features"
     },
     "comment" : {
-      "en" : "Molecular features of a compound"
+      "en" : "Molecular features of a chemical compound."
     },
-    "id" : "67"
+    "id" : "74"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#ConstitutionalDescriptors",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConstitutionalDescriptors",
+      "en" : "Constitutional descriptors"
+    },
+    "comment" : {
+      "en" : "Constitutional descriptors of a chemical compound."
+    },
+    "id" : "21"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "47",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "159",
-    "label" : {
-      "IRI-based" : "int"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "106",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "12",
+    "id" : "132",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "129",
+    "id" : "166",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "162",
+    "id" : "167",
     "label" : {
       "IRI-based" : "string"
     }
@@ -911,30 +932,58 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "38",
+    "id" : "111",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "163",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "113",
+    "id" : "12",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "98",
+    "id" : "138",
     "label" : {
       "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "127",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
@@ -944,107 +993,100 @@
       "IRI-based" : "float"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "135",
+    "id" : "157",
     "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "26",
-    "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "165",
+    "id" : "174",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "122",
+    "id" : "27",
     "label" : {
       "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "94",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "173",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "80",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "82",
-    "label" : {
-      "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "171",
+    "id" : "170",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "42",
+    "id" : "180",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "179",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#date",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "176",
+    "id" : "183",
     "label" : {
       "IRI-based" : "date"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "139",
+    "id" : "142",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "76",
+    "id" : "79",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "178",
+    "id" : "185",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "74",
+    "id" : "77",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1057,106 +1099,92 @@
       "en" : "Citation"
     },
     "comment" : {
-      "en" : "The compound was mentioned in a article, book or document with a DOI"
+      "en" : "The chemical compound was mentioned in a article, book or document with a DOI"
     },
     "id" : "6"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "185",
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
     "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "186",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "188",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
+      "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "104",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "109",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#int",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "45",
+    "id" : "48",
     "label" : {
       "IRI-based" : "int"
     }
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "189",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "54",
+    "id" : "144",
     "label" : {
       "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "90",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "146",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "141",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "28",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#int",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "183",
-    "label" : {
-      "IRI-based" : "int"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "24",
+    "id" : "25",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "194",
+    "id" : "199",
     "label" : {
       "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "195",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "int"
     }
   } ],
   "property" : [ {
@@ -1187,56 +1215,50 @@
     "id" : "23",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "25",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "27",
+    "id" : "26",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "29",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "32",
+    "id" : "31",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "34",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "37",
+    "id" : "36",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "39",
+    "id" : "38",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "41",
+    "id" : "40",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "43",
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "46",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "48",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "50",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "52",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "53",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "55",
+    "id" : "54",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "57",
+    "id" : "56",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "59",
-    "type" : "owl:objectProperty"
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "60",
     "type" : "owl:datatypeProperty"
@@ -1245,39 +1267,39 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "63",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "64",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "69",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "71",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "73",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "75",
+    "id" : "76",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "77",
+    "id" : "78",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "79",
+    "id" : "80",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "81",
+    "id" : "82",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "83",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "85",
+    "id" : "84",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "87",
@@ -1302,72 +1324,69 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "101",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "103",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "105",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "111",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "112",
+    "id" : "102",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "114",
+    "id" : "104",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "117",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "121",
+    "id" : "119",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "125",
-    "type" : "owl:objectProperty"
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "126",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "128",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "134",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "136",
+    "id" : "129",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "137",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "138",
-    "type" : "owl:datatypeProperty"
+    "id" : "139",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "140",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "142",
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "145",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "151",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "155",
+    "id" : "149",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "156",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "157",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "158",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "160",
@@ -1376,44 +1395,47 @@
     "id" : "161",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "162",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "164",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "166",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "167",
-    "type" : "owl:datatypeProperty"
+    "id" : "165",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "168",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "169",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "170",
+    "id" : "171",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "172",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "174",
+    "id" : "173",
     "type" : "owl:objectProperty"
   }, {
     "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "177",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "179",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "180",
+    "id" : "178",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "181",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "182",
     "type" : "owl:datatypeProperty"
@@ -1421,13 +1443,19 @@
     "id" : "184",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "186",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "187",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "190",
+    "id" : "188",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "191",
+    "id" : "189",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "192",
@@ -1436,20 +1464,35 @@
     "id" : "193",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "195",
+    "id" : "194",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "196",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "197",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "198",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "199",
+    "id" : "200",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "201",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "204",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
     "iri" : "http://coconut-kg.aksw.org/ontology#molecularFormula",
@@ -1475,7 +1518,7 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "Given name of a compound."
+      "en" : "Given name of a chemical compound."
     },
     "attributes" : [ "datatype" ],
     "id" : "3"
@@ -1489,7 +1532,7 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "A compound was cited in a document identifiyable by a DOI."
+      "en" : "A chemical compound was cited in a document identifiyable by a DOI."
     },
     "attributes" : [ "object" ],
     "id" : "5"
@@ -1527,11 +1570,11 @@
     "range" : "15",
     "label" : {
       "IRI-based" : "geoLocation",
-      "en" : "geo location"
+      "en" : "Geolocation"
     },
     "domain" : "14",
     "comment" : {
-      "en" : "Areas where the compound can be found."
+      "en" : "Areas of the world where the chemical compound can be found."
     },
     "attributes" : [ "datatype" ],
     "id" : "13"
@@ -1545,7 +1588,7 @@
     },
     "domain" : "18",
     "comment" : {
-      "en" : "Fingerprint sequence of TODO database."
+      "en" : "extended fingerprint sequence"
     },
     "attributes" : [ "datatype" ],
     "id" : "17"
@@ -1566,12 +1609,12 @@
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#vabcDescriptor",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "24",
+    "range" : "25",
     "label" : {
       "IRI-based" : "vabcDescriptor",
       "en" : "vabc descriptor"
     },
-    "domain" : "8",
+    "domain" : "24",
     "comment" : {
       "en" : "Volume descriptor"
     },
@@ -1580,7 +1623,7 @@
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#originalInchi",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "26",
+    "range" : "27",
     "label" : {
       "IRI-based" : "originalInchi",
       "en" : "original inchi"
@@ -1590,39 +1633,53 @@
       "en" : "Original International Chemical Identifier."
     },
     "attributes" : [ "datatype" ],
-    "id" : "25"
+    "id" : "26"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#tpsaEfficiency",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "28",
+    "range" : "30",
     "label" : {
       "IRI-based" : "tpsaEfficiency",
       "en" : "tpsa efficiency"
     },
-    "domain" : "21",
+    "domain" : "8",
     "comment" : {
       "en" : "Fractional polar surface area descriptor."
     },
     "attributes" : [ "datatype" ],
-    "id" : "27"
+    "id" : "29"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#bpol",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "30",
+    "range" : "33",
     "label" : {
       "IRI-based" : "bpol",
       "en" : "bpol"
     },
-    "domain" : "8",
+    "domain" : "32",
     "comment" : {
       "en" : "Sum of the absolute value of the difference between atomic polarizabilities of all bonded atoms in the molecule (including implicit hydrogens) with polarizabilities taken from http://www.sunysccc.edu/academic/mst/ptable/p-table2.htm This descriptor assuemes 2-centered bonds."
     },
     "attributes" : [ "datatype" ],
-    "id" : "29"
+    "id" : "31"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#hasMolecularFragments",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasMolecularFragments",
+      "en" : "has molecular fragments"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A chemical compound has lists of circular fragments (molecular signatures) and functional fragments(ERTL)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "34"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#cleanSmiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "33",
+    "range" : "37",
     "label" : {
       "IRI-based" : "cleanSmiles",
       "en" : "clean smiles"
@@ -1632,39 +1689,25 @@
       "en" : "Clean Simplified Molecular Input Line Entry Specification."
     },
     "attributes" : [ "datatype" ],
-    "id" : "32"
+    "id" : "36"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#fragmentsWithSugar",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "36",
+    "range" : "39",
     "label" : {
       "IRI-based" : "fragmentsWithSugar",
-      "en" : "fragments with Sugar"
+      "en" : "fragments with sugar"
     },
-    "domain" : "35",
+    "domain" : "28",
     "comment" : {
-      "en" : "List of circular fragments (molecular signatures) of the whole NP."
-    },
-    "attributes" : [ "object" ],
-    "id" : "34"
-  }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#pubchemBits",
-    "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "38",
-    "label" : {
-      "IRI-based" : "pubchemBits",
-      "en" : "PubChem bits"
-    },
-    "domain" : "18",
-    "comment" : {
-      "en" : "PubChem fingerprint in MongoDB BinData format."
+      "en" : "List of circular fragments (molecular signatures) of the whole natural product."
     },
     "attributes" : [ "datatype" ],
-    "id" : "37"
+    "id" : "38"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#topoPSA",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "40",
+    "range" : "41",
     "label" : {
       "IRI-based" : "topoPSA",
       "en" : "topo PSA"
@@ -1674,39 +1717,53 @@
       "en" : "Calculation of topological polar surface area based on fragment contributions (TPSA) (Ertl, P. et. al.. J.Med. Chem.. 2000. 43)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "39"
+    "id" : "40"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#pubchemBits",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "pubchemBits",
+      "en" : "PubChem bits"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "PubChem fingerprint in MongoDB BinData format."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "42"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#apol",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "42",
+    "range" : "45",
     "label" : {
       "IRI-based" : "apol",
       "en" : "apol"
     },
-    "domain" : "8",
+    "domain" : "32",
     "comment" : {
       "en" : "Sum of the atomic polarizabilities (including implicit hydrogens)"
     },
     "attributes" : [ "datatype" ],
-    "id" : "41"
+    "id" : "44"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#xRefs",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "45",
+    "range" : "48",
     "label" : {
       "IRI-based" : "xRefs",
       "en" : "cross references"
     },
-    "domain" : "44",
+    "domain" : "47",
     "comment" : {
       "en" : "Crossreferences to the sources where the compound can be found."
     },
     "attributes" : [ "datatype" ],
-    "id" : "43"
+    "id" : "46"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#sugarFreeSmiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "47",
+    "range" : "51",
     "label" : {
       "IRI-based" : "sugarFreeSmiles",
       "en" : "sugar free smiles"
@@ -1716,25 +1773,25 @@
       "en" : "Sugar free Simplified Molecular Input Line Entry Specification."
     },
     "attributes" : [ "datatype" ],
-    "id" : "46"
+    "id" : "50"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#ertlFunctionalFragmentsPseudoSmiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "49",
+    "range" : "53",
     "label" : {
       "IRI-based" : "ertlFunctionalFragmentsPseudoSmiles",
       "en" : "ERTL functional fragments pseudo smiles"
     },
-    "domain" : "35",
+    "domain" : "28",
     "comment" : {
       "en" : "List of Ertl Functional Groups in pseudo SMILES."
     },
     "attributes" : [ "datatype" ],
-    "id" : "48"
+    "id" : "52"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#deepSmiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "51",
+    "range" : "55",
     "label" : {
       "IRI-based" : "deepSmiles",
       "en" : "deep smiles"
@@ -1744,25 +1801,11 @@
       "en" : "Deep Simplified Molecular Input Line Entry Specification."
     },
     "attributes" : [ "datatype" ],
-    "id" : "50"
-  }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#hasMolecularDescriptors",
-    "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "8",
-    "label" : {
-      "IRI-based" : "hasMolecularDescriptors",
-      "en" : "has molecular descriptors"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "A compound has molecular descriptors."
-    },
-    "attributes" : [ "object" ],
-    "id" : "52"
+    "id" : "54"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#zagrebIndex",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "54",
+    "range" : "57",
     "label" : {
       "IRI-based" : "zagrebIndex",
       "en" : "zagreb index"
@@ -1772,63 +1815,63 @@
       "en" : "The sum of the squares of atom degree over all heavy atoms i."
     },
     "attributes" : [ "datatype" ],
-    "id" : "53"
+    "id" : "56"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#circularFingerprint",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "56",
+    "range" : "59",
     "label" : {
       "IRI-based" : "circularFingerprint",
       "en" : "circular fingerprint"
     },
     "domain" : "18",
     "comment" : {
-      "en" : "Fingerprint sequence of TODO database."
+      "en" : "circular fingerprint sequence."
     },
     "attributes" : [ "datatype" ],
-    "id" : "55"
+    "id" : "58"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#cas",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "58",
+    "range" : "61",
     "label" : {
       "IRI-based" : "cas",
       "en" : "cas"
     },
     "domain" : "11",
     "comment" : {
-      "en" : "CAS Registry Number."
+      "en" : "Chemical Abstracts Service registry number."
     },
     "attributes" : [ "datatype" ],
-    "id" : "57"
+    "id" : "60"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#dataOriginatedFrom",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "44",
+    "range" : "47",
     "label" : {
       "IRI-based" : "dataOriginatedFrom",
       "en" : "data originated from"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "A compounds data has been taken from a origin source."
+      "en" : "A chemical compounds data has been taken from a origin source."
     },
     "attributes" : [ "object" ],
-    "id" : "59"
+    "id" : "62"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#lipinskiRuleOf5Failures",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "61",
+    "range" : "64",
     "label" : {
       "IRI-based" : "lipinskiRuleOf5Failures",
       "en" : "Lipinski rule of 5 failures"
     },
-    "domain" : "8",
+    "domain" : "21",
     "comment" : {
       "en" : "Number of failures in the Lipinski rule of five. The Rule of Five is a rule of thumb for the oral bioavailability of a chemical compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "60"
+    "id" : "63"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#hasFingerprint",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
@@ -1839,28 +1882,28 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "A compound has a specific fingerprints."
+      "en" : "A chemical compound has a specific fingerprints."
     },
     "attributes" : [ "object" ],
-    "id" : "62"
+    "id" : "65"
   }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#hasAnalyticData",
+    "iri" : "http://coconut-kg.aksw.org/ontology#isElectronic",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "21",
+    "range" : "32",
     "label" : {
-      "IRI-based" : "hasAnalyticData",
-      "en" : "has analytic data"
+      "IRI-based" : "isElectronic",
+      "en" : "is Electronic"
     },
-    "domain" : "1",
+    "domain" : "49",
     "comment" : {
-      "en" : "A compound has collected analytic data of it."
+      "en" : "Collection of electronic descriptors."
     },
     "attributes" : [ "object" ],
-    "id" : "63"
+    "id" : "66"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#eccentricConnectivityIndexDescriptor",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "65",
+    "range" : "68",
     "label" : {
       "IRI-based" : "eccentricConnectivityIndexDescriptor",
       "en" : "eccentric connectivity index descriptor"
@@ -1870,81 +1913,81 @@
       "en" : "A topological descriptor combining distance and adjacency information."
     },
     "attributes" : [ "datatype" ],
-    "id" : "64"
+    "id" : "67"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#bondCount",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "68",
+    "range" : "70",
     "label" : {
       "IRI-based" : "bondCount",
       "en" : "bond count"
     },
-    "domain" : "67",
+    "domain" : "21",
     "comment" : {
       "en" : "Number of bonds within the compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "66"
+    "id" : "69"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#hasTaxonomyData",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "70",
+    "range" : "72",
     "label" : {
       "IRI-based" : "hasTaxonomyData",
       "en" : "has taxonomy data"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "A compound has a taxonomy structure."
+      "en" : "A chemical compound has a taxonomy structure."
     },
     "attributes" : [ "object" ],
-    "id" : "69"
+    "id" : "71"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#containsSugar",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "72",
+    "range" : "75",
     "label" : {
       "IRI-based" : "containsSugar",
       "en" : "contains sugar"
     },
-    "domain" : "67",
+    "domain" : "74",
     "comment" : {
-      "en" : "Information if the compound contains sugar."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "71"
-  }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#absoluteSmilesSources",
-    "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "74",
-    "label" : {
-      "IRI-based" : "absoluteSmilesSources",
-      "en" : "absolute smiles sources"
-    },
-    "domain" : "44",
-    "comment" : {
-      "en" : "Source databases of the absolute smiles."
+      "en" : "Information if the chemical compound contains sugar."
     },
     "attributes" : [ "datatype" ],
     "id" : "73"
   }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#absoluteSmilesSources",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "absoluteSmilesSources",
+      "en" : "absolute smiles sources"
+    },
+    "domain" : "47",
+    "comment" : {
+      "en" : "Source databases of the absolute smiles."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "76"
+  }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#bcutDescriptor",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "76",
+    "range" : "79",
     "label" : {
       "IRI-based" : "bcutDescriptor",
       "en" : "bcut descriptor"
     },
-    "domain" : "21",
+    "domain" : "24",
     "comment" : {
       "en" : "BCUT decriptor (Eigenvalue based). Eigenvalue based descriptor noted for its utility in chemical diversity."
     },
     "attributes" : [ "datatype" ],
-    "id" : "75"
+    "id" : "78"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#numberOfCarbons",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "78",
+    "range" : "81",
     "label" : {
       "IRI-based" : "numberOfCarbons",
       "en" : "number of carbons"
@@ -1954,109 +1997,109 @@
       "en" : "Number of carbon atoms in the compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "77"
+    "id" : "80"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#alogp2",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "80",
+    "range" : "83",
     "label" : {
       "IRI-based" : "alogp2",
-      "en" : "alog p2"
-    },
-    "domain" : "8",
-    "comment" : {
-      "en" : "Something about octanol-water partition TODO"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "79"
-  }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#amralogp",
-    "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "82",
-    "label" : {
-      "IRI-based" : "amralogp",
-      "en" : "amr alog p "
+      "en" : "a logP2"
     },
     "domain" : "21",
     "comment" : {
-      "en" : "AMR—molar refractivity. TODO"
+      "en" : "Prediction of logP based on the atom-type method called AlogP2 (Ghose-Crippen LogKow)"
     },
     "attributes" : [ "datatype" ],
-    "id" : "81"
+    "id" : "82"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#amralogp",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "amralogp",
+      "en" : "AMR a logP "
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Ghose-Crippen molar refractivity."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "84"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#hBondAcceptorCount",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "84",
+    "range" : "88",
     "label" : {
       "IRI-based" : "hBondAcceptorCount",
       "en" : "hydrogen bond acceptor count"
     },
-    "domain" : "21",
+    "domain" : "32",
     "comment" : {
       "en" : "Acceptor count is the sum of the acceptor atoms. An acceptor atom always has a lone electron pair/lone electron pairs that is capable of establishing a H bond."
     },
     "attributes" : [ "datatype" ],
-    "id" : "83"
+    "id" : "87"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#ertlFunctionalFragments",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "86",
+    "range" : "90",
     "label" : {
       "IRI-based" : "ertlFunctionalFragments",
       "en" : "ERTL functional fragments"
     },
-    "domain" : "35",
+    "domain" : "28",
     "comment" : {
       "en" : "List of Ertl Functional Groups."
     },
     "attributes" : [ "datatype" ],
-    "id" : "85"
+    "id" : "89"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#hybridizationRatioDescriptor",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "88",
+    "range" : "92",
     "label" : {
       "IRI-based" : "hybridizationRatioDescriptor",
       "en" : "hybridization ratio descriptor"
     },
-    "domain" : "8",
+    "domain" : "24",
     "comment" : {
       "en" : "Hybridization Ratio Descriptor (fraction of sp3 carbons to sp2 carbons)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "87"
+    "id" : "91"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#wienerPolarityNumber",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "90",
+    "range" : "94",
     "label" : {
       "IRI-based" : "wienerPolarityNumber",
       "en" : "wiener polarity number"
     },
     "domain" : "8",
     "comment" : {
-      "en" : "Dataset has it as weiner, but it's from a Prof. Wiener TODO."
+      "en" : "Half the sum of all the distance matrix entries with a value of 3."
     },
     "attributes" : [ "datatype" ],
-    "id" : "89"
+    "id" : "93"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#fragmentComplexityDescriptor",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "92",
+    "range" : "96",
     "label" : {
       "IRI-based" : "fragmentComplexityDescriptor",
       "en" : "fragment complexity descriptor"
     },
-    "domain" : "8",
+    "domain" : "24",
     "comment" : {
-      "en" : "Class that returns the complexity of a system. The complexity is defined as (Nilakantan, R. et. al.. Journal of chemical information and modeling. 2006. 46)"
+      "en" : "Class that returns the complexity of a system. The complexity is defined as (Nilakantan, R. et. al.. Journal of chemical information and modeling. 2006. 46)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "91"
+    "id" : "95"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#originalInchiKey",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "94",
+    "range" : "98",
     "label" : {
       "IRI-based" : "originalInchiKey",
       "en" : "original inchi key"
@@ -2066,25 +2109,39 @@
       "en" : "Original International Chemical Identifier Key."
     },
     "attributes" : [ "datatype" ],
-    "id" : "93"
+    "id" : "97"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#taxonomyReferenceObjects",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "96",
+    "range" : "100",
     "label" : {
       "IRI-based" : "taxonomyReferenceObjects",
       "en" : "taxonomy reference objects"
     },
-    "domain" : "70",
+    "domain" : "72",
     "comment" : {
-      "en" : "TODO."
+      "en" : "Taxonomy reference objects."
     },
     "attributes" : [ "datatype" ],
-    "id" : "95"
+    "id" : "99"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#isTopological",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isTopological",
+      "en" : "is topological"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "Collection of topological descriptors."
+    },
+    "attributes" : [ "object" ],
+    "id" : "101"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#petitjeanShapeGeom",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "98",
+    "range" : "103",
     "label" : {
       "IRI-based" : "petitjeanShapeGeom",
       "en" : "petitjean shape geom"
@@ -2094,11 +2151,11 @@
       "en" : "The geometric shape index described Petitjean and Bath et al. respectively. It measures the anisotropy in a molecule."
     },
     "attributes" : [ "datatype" ],
-    "id" : "97"
+    "id" : "102"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#minNumberOfRings",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "100",
+    "range" : "105",
     "label" : {
       "IRI-based" : "minNumberOfRings",
       "en" : "minimum number of rings"
@@ -2108,11 +2165,11 @@
       "en" : "Minimum number of rings in the compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "99"
+    "id" : "104"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#maxNumberOfRings",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "102",
+    "range" : "107",
     "label" : {
       "IRI-based" : "maxNumberOfRings",
       "en" : "maximum number of rings"
@@ -2122,25 +2179,25 @@
       "en" : "Maximum number of rings in the compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "101"
+    "id" : "106"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#xlogp",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "104",
+    "range" : "109",
     "label" : {
       "IRI-based" : "xlogp",
       "en" : "x log p"
     },
-    "domain" : "8",
+    "domain" : "21",
     "comment" : {
       "en" : "Prediction of logP based on the atom-type method calld XlogP. Requires all hydrogens to be explicit."
     },
     "attributes" : [ "datatype" ],
-    "id" : "103"
+    "id" : "108"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#simpleSmiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "106",
+    "range" : "111",
     "label" : {
       "IRI-based" : "simpleSmiles",
       "en" : "simple smiles"
@@ -2150,25 +2207,25 @@
       "en" : "Simple Simplified Molecular Input Line Entry Specification."
     },
     "attributes" : [ "datatype" ],
-    "id" : "105"
+    "id" : "110"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#fragments",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "36",
+    "range" : "115",
     "label" : {
       "IRI-based" : "fragments",
       "en" : "fragments"
     },
-    "domain" : "35",
+    "domain" : "28",
     "comment" : {
-      "en" : "List of circular fragments (molecular signatures) of the deglycosylated NP."
+      "en" : "List of circular fragments (molecular signatures) of the deglycosylated natural product."
     },
-    "attributes" : [ "object" ],
-    "id" : "111"
+    "attributes" : [ "datatype" ],
+    "id" : "116"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#pubchemFingerprint",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "113",
+    "range" : "118",
     "label" : {
       "IRI-based" : "pubchemFingerprint",
       "en" : "PubChem fingerprint"
@@ -2178,25 +2235,25 @@
       "en" : "Fingerprint sequence of PubChem database."
     },
     "attributes" : [ "datatype" ],
-    "id" : "112"
+    "id" : "117"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#nplScore",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "115",
+    "range" : "120",
     "label" : {
       "IRI-based" : "nplScore",
       "en" : "NPL score"
     },
-    "domain" : "8",
+    "domain" : "24",
     "comment" : {
       "en" : "The likelyhood of the compound to be a natural product, ranges from -5 (less likely) to 5 (very likely)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "114"
+    "id" : "119"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#pubchemBitsString",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "118",
+    "range" : "123",
     "label" : {
       "IRI-based" : "pubchemBitsString",
       "en" : "PubChem bits string"
@@ -2206,11 +2263,11 @@
       "en" : "PubChem fingerprint in MongoDB BinData format."
     },
     "attributes" : [ "datatype" ],
-    "id" : "117"
+    "id" : "122"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#originalSmiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "122",
+    "range" : "127",
     "label" : {
       "IRI-based" : "originalSmiles",
       "en" : "original smiles"
@@ -2220,7 +2277,7 @@
       "en" : "Original Simplified Molecular Input Line Entry Specification."
     },
     "attributes" : [ "datatype" ],
-    "id" : "121"
+    "id" : "126"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#hasMolecularProperties",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
@@ -2231,42 +2288,42 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "A compound has properties."
+      "en" : "A chemical compound has molecular properties."
     },
     "attributes" : [ "object" ],
-    "id" : "125"
+    "id" : "129"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#fmfDescriptor",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "109",
+    "range" : "114",
     "label" : {
       "IRI-based" : "fmfDescriptor",
       "en" : "fmf descriptor"
     },
-    "domain" : "8",
+    "domain" : "24",
     "comment" : {
       "en" : "FMF descriptor characterizing complexity of a molecule. The descriptor is described in (Yang, Y. et. al.. J. Med. Chem.. 2010. ASAP) and is an approach to characterizing molecular complexity based on the Murcko framework present in the molecule."
     },
     "attributes" : [ "datatype" ],
-    "id" : "126"
+    "id" : "130"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#source",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "129",
+    "range" : "132",
     "label" : {
       "IRI-based" : "source",
       "en" : "source"
     },
-    "domain" : "44",
+    "domain" : "47",
     "comment" : {
       "en" : "Source of the data."
     },
     "attributes" : [ "datatype" ],
-    "id" : "128"
+    "id" : "131"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#petitjeanShapeTopo",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "135",
+    "range" : "138",
     "label" : {
       "IRI-based" : "petitjeanShapeTopo",
       "en" : "petitjean shape topo"
@@ -2276,25 +2333,25 @@
       "en" : "The topological shape index described Petitjean and Bath et al. respectively. It measures the anisotropy in a molecule."
     },
     "attributes" : [ "datatype" ],
-    "id" : "134"
+    "id" : "137"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#hasMolecularFeatures",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "67",
+    "range" : "74",
     "label" : {
       "IRI-based" : "hasMolecularFeatures",
       "en" : "has molecular features"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "A compound has features."
+      "en" : "A chemical compound has molecular features."
     },
     "attributes" : [ "object" ],
-    "id" : "136"
+    "id" : "139"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#citationDoi",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "119",
+    "range" : "124",
     "label" : {
       "IRI-based" : "citationDoi",
       "en" : "citation DOI."
@@ -2304,11 +2361,11 @@
       "en" : "DOI of publications the compound has been mentioned."
     },
     "attributes" : [ "datatype" ],
-    "id" : "137"
+    "id" : "140"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#baseId",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "139",
+    "range" : "142",
     "label" : {
       "IRI-based" : "baseId",
       "en" : "base Id"
@@ -2318,53 +2375,53 @@
       "en" : "Object Id within the coconut database."
     },
     "attributes" : [ "datatype" ],
-    "id" : "138"
+    "id" : "141"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#vertexAdjMagnitude",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "141",
+    "range" : "144",
     "label" : {
       "IRI-based" : "vertexAdjMagnitude",
       "en" : "vertex Adj Magnitude"
     },
-    "domain" : "21",
+    "domain" : "8",
     "comment" : {
-      "en" : "Vertex adjacency information TODO"
+      "en" : "Descriptor that calculates the vertex adjacency information of a molecule."
     },
     "attributes" : [ "datatype" ],
-    "id" : "140"
+    "id" : "143"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#fsp3",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "110",
+    "range" : "112",
     "label" : {
       "IRI-based" : "fsp3",
       "en" : "fsp3"
     },
-    "domain" : "8",
+    "domain" : "24",
     "comment" : {
-      "en" : "This descriptor is characterizing non-flatness of a molecule"
+      "en" : "This descriptor is characterizing non-flatness of a molecule."
     },
     "attributes" : [ "datatype" ],
-    "id" : "142"
+    "id" : "145"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#wienerPathNumber",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "146",
+    "range" : "150",
     "label" : {
       "IRI-based" : "wienerPathNumber",
       "en" : "wiener path number"
     },
     "domain" : "8",
     "comment" : {
-      "en" : "Dataset has it as weiner, but it's from a Prof. Wiener TODO."
+      "en" : "Half the sum of all the distance matrix entries."
     },
     "attributes" : [ "datatype" ],
-    "id" : "145"
+    "id" : "149"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#numberOfOxygens",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "123",
+    "range" : "157",
     "label" : {
       "IRI-based" : "numberOfOxygens",
       "en" : "number of oxygens"
@@ -2374,25 +2431,25 @@
       "en" : "Number of oxygen atoms in the compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "151"
+    "id" : "156"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#foundInDatabases",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "108",
+    "range" : "113",
     "label" : {
       "IRI-based" : "foundInDatabases",
       "en" : "found in databases"
     },
-    "domain" : "44",
+    "domain" : "47",
     "comment" : {
       "en" : "Nametags of databases where the compound can be found."
     },
     "attributes" : [ "datatype" ],
-    "id" : "155"
+    "id" : "160"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#heavyAtomNumber",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "148",
+    "range" : "153",
     "label" : {
       "IRI-based" : "heavyAtomNumber",
       "en" : "heavy atom number"
@@ -2402,11 +2459,11 @@
       "en" : "Number of heavy Atoms."
     },
     "attributes" : [ "datatype" ],
-    "id" : "156"
+    "id" : "161"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#synonyms",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "152",
+    "range" : "158",
     "label" : {
       "IRI-based" : "synonyms",
       "en" : "synonyms"
@@ -2416,7 +2473,7 @@
       "en" : "Synonyme names of a compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "157"
+    "id" : "162"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#sugarFreeHeavyAtomNumber",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
@@ -2430,53 +2487,67 @@
       "en" : "Number of heavy Atoms which are not sugar."
     },
     "attributes" : [ "datatype" ],
-    "id" : "158"
+    "id" : "163"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#nplSugarScore",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "131",
+    "range" : "128",
     "label" : {
       "IRI-based" : "nplSugarScore",
       "en" : "NPL sugar score"
     },
-    "domain" : "16",
+    "domain" : "24",
     "comment" : {
       "en" : "NP‐likeness score computed on the glycosylated molecule."
     },
     "attributes" : [ "datatype" ],
-    "id" : "160"
+    "id" : "164"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#isGeometrical",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "isGeometrical",
+      "en" : "is geometrical"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "Collection of geometrical descriptors."
+    },
+    "attributes" : [ "object" ],
+    "id" : "165"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#molecularWeight",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "132",
+    "range" : "136",
     "label" : {
       "IRI-based" : "molecularWeight",
       "en" : "molecular weight"
     },
-    "domain" : "16",
+    "domain" : "24",
     "comment" : {
       "en" : "Molecular weight of a compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "161"
+    "id" : "168"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#numberSpiroAtoms",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "165",
+    "range" : "170",
     "label" : {
       "IRI-based" : "numberSpiroAtoms",
       "en" : "number of spiro atoms"
     },
-    "domain" : "21",
+    "domain" : "16",
     "comment" : {
       "en" : "Number of atoms that are common to two rings in the molecule of a compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "164"
+    "id" : "169"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#smiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "162",
+    "range" : "166",
     "label" : {
       "IRI-based" : "smiles",
       "en" : "smiles"
@@ -2486,21 +2557,35 @@
       "en" : "Simplified Molecular Input Line Entry Specification."
     },
     "attributes" : [ "datatype" ],
-    "id" : "166"
+    "id" : "171"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#idInSource",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "150",
+    "range" : "147",
     "label" : {
       "IRI-based" : "idInSource",
       "en" : "id in source"
     },
-    "domain" : "44",
+    "domain" : "47",
     "comment" : {
       "en" : "Id the compound had in it's source database."
     },
     "attributes" : [ "datatype" ],
-    "id" : "167"
+    "id" : "172"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#isMolecular",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "isMolecular",
+      "en" : "is molecular"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "Collection of molecular descriptors."
+    },
+    "attributes" : [ "object" ],
+    "id" : "173"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#isIdentifiedBy",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
@@ -2511,10 +2596,10 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "A compound is identified by it's unique identifiers."
+      "en" : "A chemical compound is identified by it's unique identifiers."
     },
     "attributes" : [ "object" ],
-    "id" : "168"
+    "id" : "175"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#murkoFramework",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
@@ -2528,25 +2613,11 @@
       "en" : "Molecule string to make it compatible using the Bemis-Murcko framework."
     },
     "attributes" : [ "datatype" ],
-    "id" : "169"
-  }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#annotationLevel",
-    "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "171",
-    "label" : {
-      "IRI-based" : "annotationLevel",
-      "en" : "annotation level"
-    },
-    "domain" : "35",
-    "comment" : {
-      "en" : "Annotation level of the NP (from 1 to 5)."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "170"
+    "id" : "176"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#simpleInchi",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "163",
+    "range" : "167",
     "label" : {
       "IRI-based" : "simpleInchi",
       "en" : "simple inchi"
@@ -2556,7 +2627,21 @@
       "en" : "Simple International Chemical Identifier."
     },
     "attributes" : [ "datatype" ],
-    "id" : "172"
+    "id" : "177"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#annotationLevel",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "179",
+    "label" : {
+      "IRI-based" : "annotationLevel",
+      "en" : "annotation level"
+    },
+    "domain" : "16",
+    "comment" : {
+      "en" : "Annotation level of the natural product (from 1 to 5)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "178"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#hasGeolocation",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
@@ -2567,14 +2652,14 @@
     },
     "domain" : "1",
     "comment" : {
-      "en" : "A compound can be found at certain geo locations."
+      "en" : "A chemical compound can be found at certain geo locations."
     },
     "attributes" : [ "object" ],
-    "id" : "174"
+    "id" : "181"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#numberOfNitrogens",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "124",
+    "range" : "174",
     "label" : {
       "IRI-based" : "numberOfNitrogens",
       "en" : "number of nitrogens"
@@ -2584,39 +2669,39 @@
       "en" : "Number of nitrogen atoms in the compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "175"
+    "id" : "182"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#absoluteSmiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "178",
+    "range" : "185",
     "label" : {
       "IRI-based" : "absoluteSmiles",
       "en" : "absolute smiles"
     },
     "domain" : "11",
     "comment" : {
-      "en" : "Absolute smiles of a compound."
+      "en" : "Absolute smiles of a chemical compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "177"
+    "id" : "184"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#kappaShapeIndex3",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "147",
+    "range" : "146",
     "label" : {
       "IRI-based" : "kappaShapeIndex3",
       "en" : "kappa shape index 3"
     },
-    "domain" : "21",
+    "domain" : "8",
     "comment" : {
       "en" : "Classification of the molecular shape of a compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "179"
+    "id" : "186"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#sugarFreeTotalAtomNumber",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "154",
+    "range" : "155",
     "label" : {
       "IRI-based" : "sugarFreeTotalAtomNumber",
       "en" : "sugar free total atom number"
@@ -2626,25 +2711,39 @@
       "en" : "Number of total Atoms which are not sugar."
     },
     "attributes" : [ "datatype" ],
-    "id" : "180"
+    "id" : "187"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#kappaShapeIndex1",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "144",
+    "range" : "151",
     "label" : {
       "IRI-based" : "kappaShapeIndex1",
       "en" : "kappa shape index 1"
     },
-    "domain" : "21",
+    "domain" : "8",
     "comment" : {
       "en" : "Classification of the molecular shape of a compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "181"
+    "id" : "188"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#kappaShapeIndex2",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "kappaShapeIndex2",
+      "en" : "kappa shape index 2"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Classification of the molecular shape of a compound."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "189"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#totalAtomNumber",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "183",
+    "range" : "191",
     "label" : {
       "IRI-based" : "totalAtomNumber",
       "en" : "total atom number"
@@ -2654,81 +2753,81 @@
       "en" : "Number of total Atoms."
     },
     "attributes" : [ "datatype" ],
-    "id" : "182"
-  }, {
-    "iri" : "http://coconut-kg.aksw.org/ontology#kappaShapeIndex2",
-    "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "143",
-    "label" : {
-      "IRI-based" : "kappaShapeIndex2",
-      "en" : "kappa shape index 2"
-    },
-    "domain" : "21",
-    "comment" : {
-      "en" : "Classification of the molecular shape of a compound."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "184"
+    "id" : "190"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#gravitationalIndexHeavyAtoms",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "107",
+    "range" : "152",
     "label" : {
       "IRI-based" : "gravitationalIndexHeavyAtoms",
       "en" : "gravitational index heavy atoms"
     },
-    "domain" : "21",
+    "domain" : "86",
     "comment" : {
       "en" : "Gravitational index descriptor (heavy atoms only). Theses are calculated from the 3D molecular structure, which is defined with coordinates of all atoms in the molecule."
     },
     "attributes" : [ "datatype" ],
-    "id" : "187"
+    "id" : "192"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#hBondDonorCount",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "149",
+    "range" : "154",
     "label" : {
       "IRI-based" : "hBondDonorCount",
       "en" : "hydrogen bond donor count"
     },
-    "domain" : "21",
+    "domain" : "32",
     "comment" : {
       "en" : "Donor count is the sum of the atoms in the molecule which have H donor property."
     },
     "attributes" : [ "datatype" ],
-    "id" : "190"
+    "id" : "193"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#textTaxa",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "153",
+    "range" : "195",
     "label" : {
       "IRI-based" : "textTaxa",
       "en" : "text Taxa"
     },
-    "domain" : "70",
+    "domain" : "72",
     "comment" : {
-      "en" : "TODO."
+      "en" : "A textual representation of the taxonomy of a chemical compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "191"
+    "id" : "194"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#nameTrustLevel",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "130",
+    "range" : "135",
     "label" : {
       "IRI-based" : "nameTrustLevel",
       "en" : "name trust level"
     },
-    "domain" : "35",
+    "domain" : "1",
     "comment" : {
-      "en" : "Trust level of given compound name."
+      "en" : "Trust level of given chemical compound name."
     },
     "attributes" : [ "datatype" ],
-    "id" : "192"
+    "id" : "196"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#hasDescriptors",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "hasDescriptors",
+      "en" : "has descriptors"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A chemical compound has various descriptors."
+    },
+    "attributes" : [ "object" ],
+    "id" : "197"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#uniqueSmiles",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "194",
+    "range" : "199",
     "label" : {
       "IRI-based" : "uniqueSmiles",
       "en" : "unique smiles"
@@ -2738,76 +2837,90 @@
       "en" : "Unique Simplified Molecular Input Line Entry Specification."
     },
     "attributes" : [ "datatype" ],
-    "id" : "193"
+    "id" : "198"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#aquisitionDate",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "176",
+    "range" : "183",
     "label" : {
       "IRI-based" : "aquisitionDate",
       "en" : "aquisition date"
     },
-    "domain" : "44",
+    "domain" : "47",
     "comment" : {
-      "en" : "The date the compound data was aquired from the source."
+      "en" : "The date the chemical compounds data was aquired from the source."
     },
     "attributes" : [ "datatype" ],
-    "id" : "195"
+    "id" : "200"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#alogp",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "173",
+    "range" : "180",
     "label" : {
       "IRI-based" : "alogp",
-      "en" : "alog p"
+      "en" : "a logP"
     },
-    "domain" : "8",
+    "domain" : "21",
     "comment" : {
-      "en" : "Something about octanol-water partition TODO"
+      "en" : "Prediction of logP based on the atom-type method called AlogP (Ghose-Crippen LogKow)."
     },
     "attributes" : [ "datatype" ],
-    "id" : "196"
+    "id" : "201"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#containsLinearSugars",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "120",
+    "range" : "125",
     "label" : {
       "IRI-based" : "containsLinearSugars",
       "en" : "contains linear sugars"
     },
-    "domain" : "67",
+    "domain" : "74",
     "comment" : {
-      "en" : "Information if there are any linear sugars present in the compound."
+      "en" : "Information if there are any linear sugars present in the chemical compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "197"
+    "id" : "202"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#nplNohScore",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "127",
+    "range" : "134",
     "label" : {
       "IRI-based" : "nplNohScore",
       "en" : "NPL-NOH score"
     },
-    "domain" : "16",
+    "domain" : "24",
     "comment" : {
       "en" : "NP‐likeness score computed on the nitrolic acid molecule."
     },
     "attributes" : [ "datatype" ],
-    "id" : "198"
+    "id" : "203"
   }, {
     "iri" : "http://coconut-kg.aksw.org/ontology#containsRingSugars",
     "baseIri" : "http://coconut-kg.aksw.org/ontology",
-    "range" : "116",
+    "range" : "121",
     "label" : {
       "IRI-based" : "containsRingSugars",
       "en" : "contains ring sugars"
     },
-    "domain" : "67",
+    "domain" : "74",
     "comment" : {
-      "en" : "Information if there are any ring sugars present in the compound."
+      "en" : "Information if there are any ring sugars present in the chemical compound."
     },
     "attributes" : [ "datatype" ],
-    "id" : "199"
+    "id" : "204"
+  }, {
+    "iri" : "http://coconut-kg.aksw.org/ontology#isConstitutional",
+    "baseIri" : "http://coconut-kg.aksw.org/ontology",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "isConstitutional",
+      "en" : "is constitutional"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "Collection of constitutional descriptors."
+    },
+    "attributes" : [ "object" ],
+    "id" : "205"
   } ]
 }

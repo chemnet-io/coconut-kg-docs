@@ -61,43 +61,31 @@ xsd:date rdf:type rdfs:Datatype .
 :dataOriginatedFrom rdf:type owl:ObjectProperty ;
                     rdfs:domain :Compound ;
                     rdfs:range :DataOriginSource ;
-                    rdfs:comment "A compounds data has been taken from a origin source."@en ;
+                    rdfs:comment "A chemical compounds data has been taken from a origin source."@en ;
                     rdfs:label "data originated from"@en .
-
-
-###  http://coconut-kg.aksw.org/ontology#fragments
-:fragments rdf:type owl:ObjectProperty ;
-           rdfs:domain :Class ;
-           rdfs:range xsd:String .
-
-
-###  http://coconut-kg.aksw.org/ontology#fragmentsWithSugar
-:fragmentsWithSugar rdf:type owl:ObjectProperty ;
-                    rdfs:domain :Class ;
-                    rdfs:range xsd:String .
-
-
-###  http://coconut-kg.aksw.org/ontology#hasAnalyticData
-:hasAnalyticData rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Compound ;
-                 rdfs:range :AnalyticData ;
-                 rdfs:comment "A compound has collected analytic data of it."@en ;
-                 rdfs:label "has analytic data"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#hasCitation
 :hasCitation rdf:type owl:ObjectProperty ;
              rdfs:domain :Compound ;
              rdfs:range :Citation ;
-             rdfs:comment "A compound was cited in a document identifiyable by a DOI."@en ;
+             rdfs:comment "A chemical compound was cited in a document identifiyable by a DOI."@en ;
              rdfs:label "has citation"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#hasDescriptors
+:hasDescriptors rdf:type owl:ObjectProperty ;
+                rdfs:domain :Compound ;
+                rdfs:range :Descriptors ;
+                rdfs:comment "A chemical compound has various descriptors."@en ;
+                rdfs:label "has descriptors"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#hasFingerprint
 :hasFingerprint rdf:type owl:ObjectProperty ;
                 rdfs:domain :Compound ;
                 rdfs:range :Fingerprint ;
-                rdfs:comment "A compound has a specific fingerprints."@en ;
+                rdfs:comment "A chemical compound has a specific fingerprints."@en ;
                 rdfs:label "has fingerprint"@en .
 
 
@@ -105,31 +93,31 @@ xsd:date rdf:type rdfs:Datatype .
 :hasGeolocation rdf:type owl:ObjectProperty ;
                 rdfs:domain :Compound ;
                 rdfs:range :Geolocation ;
-                rdfs:comment "A compound can be found at certain geo locations."@en ;
+                rdfs:comment "A chemical compound can be found at certain geo locations."@en ;
                 rdfs:label "has geo location"@en .
-
-
-###  http://coconut-kg.aksw.org/ontology#hasMolecularDescriptors
-:hasMolecularDescriptors rdf:type owl:ObjectProperty ;
-                         rdfs:domain :Compound ;
-                         rdfs:range :MolecularDescriptors ;
-                         rdfs:comment "A compound has molecular descriptors."@en ;
-                         rdfs:label "has molecular descriptors"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#hasMolecularFeatures
 :hasMolecularFeatures rdf:type owl:ObjectProperty ;
                       rdfs:domain :Compound ;
                       rdfs:range :MolecularFeatures ;
-                      rdfs:comment "A compound has features."@en ;
+                      rdfs:comment "A chemical compound has molecular features."@en ;
                       rdfs:label "has molecular features"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#hasMolecularFragments
+:hasMolecularFragments rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Compound ;
+                       rdfs:range :MolecularFragments ;
+                       rdfs:comment "A chemical compound has lists of circular fragments (molecular signatures) and functional fragments(ERTL)."@en ;
+                       rdfs:label "has molecular fragments"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#hasMolecularProperties
 :hasMolecularProperties rdf:type owl:ObjectProperty ;
                         rdfs:domain :Compound ;
                         rdfs:range :MolecularProperties ;
-                        rdfs:comment "A compound has properties."@en ;
+                        rdfs:comment "A chemical compound has molecular properties."@en ;
                         rdfs:label "has molecular properties"@en .
 
 
@@ -137,16 +125,56 @@ xsd:date rdf:type rdfs:Datatype .
 :hasTaxonomyData rdf:type owl:ObjectProperty ;
                  rdfs:domain :Compound ;
                  rdfs:range :Taxonomy ;
-                 rdfs:comment "A compound has a taxonomy structure."@en ;
+                 rdfs:comment "A chemical compound has a taxonomy structure."@en ;
                  rdfs:label "has taxonomy data"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#isConstitutional
+:isConstitutional rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Descriptors ;
+                  rdfs:range :ConstitutionalDescriptors ;
+                  rdfs:comment "Collection of constitutional descriptors."@en ;
+                  rdfs:label "is constitutional"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#isElectronic
+:isElectronic rdf:type owl:ObjectProperty ;
+              rdfs:domain :Descriptors ;
+              rdfs:range :ElectronicDescriptors ;
+              rdfs:comment "Collection of electronic descriptors."@en ;
+              rdfs:label "is Electronic"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#isGeometrical
+:isGeometrical rdf:type owl:ObjectProperty ;
+               rdfs:domain :Descriptors ;
+               rdfs:range :GeometricalDescriptors ;
+               rdfs:comment "Collection of geometrical descriptors."@en ;
+               rdfs:label "is geometrical"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#isIdentifiedBy
 :isIdentifiedBy rdf:type owl:ObjectProperty ;
                 rdfs:domain :Compound ;
                 rdfs:range :UniqueIdentifiers ;
-                rdfs:comment "A compound is identified by it's unique identifiers."@en ;
+                rdfs:comment "A chemical compound is identified by it's unique identifiers."@en ;
                 rdfs:label "is identified by"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#isMolecular
+:isMolecular rdf:type owl:ObjectProperty ;
+             rdfs:domain :Descriptors ;
+             rdfs:range :MolecularDescriptors ;
+             rdfs:comment "Collection of molecular descriptors."@en ;
+             rdfs:label "is molecular"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#isTopological
+:isTopological rdf:type owl:ObjectProperty ;
+               rdfs:domain :Descriptors ;
+               rdfs:range :TopologicalDescriptors ;
+               rdfs:comment "Collection of topological descriptors."@en ;
+               rdfs:label "is topological"@en .
 
 
 #################################################################
@@ -157,7 +185,7 @@ xsd:date rdf:type rdfs:Datatype .
 :absoluteSmiles rdf:type owl:DatatypeProperty ;
                 rdfs:domain :UniqueIdentifiers ;
                 rdfs:range xsd:string ;
-                rdfs:comment "Absolute smiles of a compound."@en ;
+                rdfs:comment "Absolute smiles of a chemical compound."@en ;
                 rdfs:label "absolute smiles"@en .
 
 
@@ -171,39 +199,39 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#alogp
 :alogp rdf:type owl:DatatypeProperty ;
-       rdfs:domain :MolecularDescriptors ;
+       rdfs:domain :ConstitutionalDescriptors ;
        rdfs:range xsd:float ;
-       rdfs:comment "Something about octanol-water partition TODO"@en ;
-       rdfs:label "alog p"@en .
+       rdfs:comment "Prediction of logP based on the atom-type method called AlogP (Ghose-Crippen LogKow)."@en ;
+       rdfs:label "a logP"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#alogp2
 :alogp2 rdf:type owl:DatatypeProperty ;
-        rdfs:domain :MolecularDescriptors ;
+        rdfs:domain :ConstitutionalDescriptors ;
         rdfs:range xsd:float ;
-        rdfs:comment "Something about octanol-water partition TODO"@en ;
-        rdfs:label "alog p2"@en .
+        rdfs:comment "Prediction of logP based on the atom-type method called AlogP2 (Ghose-Crippen LogKow)"@en ;
+        rdfs:label "a logP2"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#amralogp
 :amralogp rdf:type owl:DatatypeProperty ;
-          rdfs:domain :AnalyticData ;
+          rdfs:domain :ConstitutionalDescriptors ;
           rdfs:range xsd:float ;
-          rdfs:comment "AMR—molar refractivity. TODO"@en ;
-          rdfs:label "amr alog p "@en .
+          rdfs:comment "Ghose-Crippen molar refractivity."@en ;
+          rdfs:label "AMR a logP "@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#annotationLevel
 :annotationLevel rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :Class ;
+                 rdfs:domain :MolecularProperties ;
                  rdfs:range xsd:int ;
-                 rdfs:comment "Annotation level of the NP (from 1 to 5)."@en ;
+                 rdfs:comment "Annotation level of the natural product (from 1 to 5)."@en ;
                  rdfs:label "annotation level"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#apol
 :apol rdf:type owl:DatatypeProperty ;
-      rdfs:domain :MolecularDescriptors ;
+      rdfs:domain :ElectronicDescriptors ;
       rdfs:range xsd:float ;
       rdfs:comment "Sum of the atomic polarizabilities (including implicit hydrogens)"@en ;
       rdfs:label "apol"@en .
@@ -213,7 +241,7 @@ xsd:date rdf:type rdfs:Datatype .
 :aquisitionDate rdf:type owl:DatatypeProperty ;
                 rdfs:domain :DataOriginSource ;
                 rdfs:range xsd:date ;
-                rdfs:comment "The date the compound data was aquired from the source."@en ;
+                rdfs:comment "The date the chemical compounds data was aquired from the source."@en ;
                 rdfs:label "aquisition date"@en .
 
 
@@ -227,7 +255,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#bcutDescriptor
 :bcutDescriptor rdf:type owl:DatatypeProperty ;
-                rdfs:domain :AnalyticData ;
+                rdfs:domain :MolecularDescriptors ;
                 rdfs:range xsd:float ;
                 rdfs:comment "BCUT decriptor (Eigenvalue based). Eigenvalue based descriptor noted for its utility in chemical diversity."@en ;
                 rdfs:label "bcut descriptor"@en .
@@ -235,7 +263,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#bondCount
 :bondCount rdf:type owl:DatatypeProperty ;
-           rdfs:domain :MolecularFeatures ;
+           rdfs:domain :ConstitutionalDescriptors ;
            rdfs:range xsd:int ;
            rdfs:comment "Number of bonds within the compound."@en ;
            rdfs:label "bond count"@en .
@@ -243,7 +271,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#bpol
 :bpol rdf:type owl:DatatypeProperty ;
-      rdfs:domain :MolecularDescriptors ;
+      rdfs:domain :ElectronicDescriptors ;
       rdfs:range xsd:float ;
       rdfs:comment "Sum of the absolute value of the difference between atomic polarizabilities of all bonded atoms in the molecule (including implicit hydrogens) with polarizabilities taken from http://www.sunysccc.edu/academic/mst/ptable/p-table2.htm This descriptor assuemes 2-centered bonds."@en ;
       rdfs:label "bpol"@en .
@@ -253,7 +281,7 @@ xsd:date rdf:type rdfs:Datatype .
 :cas rdf:type owl:DatatypeProperty ;
      rdfs:domain :UniqueIdentifiers ;
      rdfs:range xsd:string ;
-     rdfs:comment "CAS Registry Number."@en ;
+     rdfs:comment "Chemical Abstracts Service registry number."@en ;
      rdfs:label "cas"@en .
 
 
@@ -261,7 +289,7 @@ xsd:date rdf:type rdfs:Datatype .
 :circularFingerprint rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Fingerprint ;
                      rdfs:range xsd:string ;
-                     rdfs:comment "Fingerprint sequence of TODO database."@en ;
+                     rdfs:comment "circular fingerprint sequence."@en ;
                      rdfs:label "circular fingerprint"@en .
 
 
@@ -285,7 +313,7 @@ xsd:date rdf:type rdfs:Datatype .
 :containsLinearSugars rdf:type owl:DatatypeProperty ;
                       rdfs:domain :MolecularFeatures ;
                       rdfs:range xsd:boolean ;
-                      rdfs:comment "Information if there are any linear sugars present in the compound."@en ;
+                      rdfs:comment "Information if there are any linear sugars present in the chemical compound."@en ;
                       rdfs:label "contains linear sugars"@en .
 
 
@@ -293,7 +321,7 @@ xsd:date rdf:type rdfs:Datatype .
 :containsRingSugars rdf:type owl:DatatypeProperty ;
                     rdfs:domain :MolecularFeatures ;
                     rdfs:range xsd:boolean ;
-                    rdfs:comment "Information if there are any ring sugars present in the compound."@en ;
+                    rdfs:comment "Information if there are any ring sugars present in the chemical compound."@en ;
                     rdfs:label "contains ring sugars"@en .
 
 
@@ -301,7 +329,7 @@ xsd:date rdf:type rdfs:Datatype .
 :containsSugar rdf:type owl:DatatypeProperty ;
                rdfs:domain :MolecularFeatures ;
                rdfs:range xsd:boolean ;
-               rdfs:comment "Information if the compound contains sugar."@en ;
+               rdfs:comment "Information if the chemical compound contains sugar."@en ;
                rdfs:label "contains sugar"@en .
 
 
@@ -315,7 +343,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#eccentricConnectivityIndexDescriptor
 :eccentricConnectivityIndexDescriptor rdf:type owl:DatatypeProperty ;
-                                      rdfs:domain :MolecularDescriptors ;
+                                      rdfs:domain :TopologicalDescriptors ;
                                       rdfs:range xsd:float ;
                                       rdfs:comment "A topological descriptor combining distance and adjacency information."@en ;
                                       rdfs:label "eccentric connectivity index descriptor"@en .
@@ -323,7 +351,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#ertlFunctionalFragments
 :ertlFunctionalFragments rdf:type owl:DatatypeProperty ;
-                         rdfs:domain :Class ;
+                         rdfs:domain :MolecularFragments ;
                          rdfs:range xsd:string ;
                          rdfs:comment "List of Ertl Functional Groups."@en ;
                          rdfs:label "ERTL functional fragments"@en .
@@ -331,7 +359,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#ertlFunctionalFragmentsPseudoSmiles
 :ertlFunctionalFragmentsPseudoSmiles rdf:type owl:DatatypeProperty ;
-                                     rdfs:domain :Class ;
+                                     rdfs:domain :MolecularFragments ;
                                      rdfs:range xsd:string ;
                                      rdfs:comment "List of Ertl Functional Groups in pseudo SMILES."@en ;
                                      rdfs:label "ERTL functional fragments pseudo smiles"@en .
@@ -341,7 +369,7 @@ xsd:date rdf:type rdfs:Datatype .
 :extendedFingerprint rdf:type owl:DatatypeProperty ;
                      rdfs:domain :Fingerprint ;
                      rdfs:range xsd:string ;
-                     rdfs:comment "Fingerprint sequence of TODO database."@en ;
+                     rdfs:comment "extended fingerprint sequence"@en ;
                      rdfs:label "extended fingerprint"@en .
 
 
@@ -365,23 +393,31 @@ xsd:date rdf:type rdfs:Datatype .
 :fragmentComplexityDescriptor rdf:type owl:DatatypeProperty ;
                               rdfs:domain :MolecularDescriptors ;
                               rdfs:range xsd:float ;
-                              rdfs:comment "Class that returns the complexity of a system. The complexity is defined as (Nilakantan, R. et. al.. Journal of chemical information and modeling. 2006. 46)"@en ;
+                              rdfs:comment "Class that returns the complexity of a system. The complexity is defined as (Nilakantan, R. et. al.. Journal of chemical information and modeling. 2006. 46)."@en ;
                               rdfs:label "fragment complexity descriptor"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#fragments
-:fragments rdf:type owl:DatatypeProperty .
+:fragments rdf:type owl:DatatypeProperty ;
+           rdfs:domain :MolecularFragments ;
+           rdfs:range xsd:string ;
+           rdfs:comment "List of circular fragments (molecular signatures) of the deglycosylated natural product."@en ;
+           rdfs:label "fragments"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#fragmentsWithSugar
-:fragmentsWithSugar rdf:type owl:DatatypeProperty .
+:fragmentsWithSugar rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :MolecularFragments ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "List of circular fragments (molecular signatures) of the whole natural product."@en ;
+                    rdfs:label "fragments with sugar"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#fsp3
 :fsp3 rdf:type owl:DatatypeProperty ;
       rdfs:domain :MolecularDescriptors ;
       rdfs:range xsd:float ;
-      rdfs:comment "This descriptor is characterizing non-flatness of a molecule"@en ;
+      rdfs:comment "This descriptor is characterizing non-flatness of a molecule."@en ;
       rdfs:label "fsp3"@en .
 
 
@@ -389,13 +425,13 @@ xsd:date rdf:type rdfs:Datatype .
 :geoLocation rdf:type owl:DatatypeProperty ;
              rdfs:domain :Geolocation ;
              rdfs:range xsd:string ;
-             rdfs:comment "Areas where the compound can be found."@en ;
-             rdfs:label "geo location"@en .
+             rdfs:comment "Areas of the world where the chemical compound can be found."@en ;
+             rdfs:label "Geolocation"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#gravitationalIndexHeavyAtoms
 :gravitationalIndexHeavyAtoms rdf:type owl:DatatypeProperty ;
-                              rdfs:domain :AnalyticData ;
+                              rdfs:domain :GeometricalDescriptors ;
                               rdfs:range xsd:double ;
                               rdfs:comment "Gravitational index descriptor (heavy atoms only). Theses are calculated from the 3D molecular structure, which is defined with coordinates of all atoms in the molecule."@en ;
                               rdfs:label "gravitational index heavy atoms"@en .
@@ -403,7 +439,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#hBondAcceptorCount
 :hBondAcceptorCount rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :AnalyticData ;
+                    rdfs:domain :ElectronicDescriptors ;
                     rdfs:range xsd:int ;
                     rdfs:comment "Acceptor count is the sum of the acceptor atoms. An acceptor atom always has a lone electron pair/lone electron pairs that is capable of establishing a H bond."@en ;
                     rdfs:label "hydrogen bond acceptor count"@en .
@@ -411,7 +447,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#hBondDonorCount
 :hBondDonorCount rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :AnalyticData ;
+                 rdfs:domain :ElectronicDescriptors ;
                  rdfs:range xsd:int ;
                  rdfs:comment "Donor count is the sum of the atoms in the molecule which have H donor property."@en ;
                  rdfs:label "hydrogen bond donor count"@en .
@@ -443,7 +479,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#kappaShapeIndex1
 :kappaShapeIndex1 rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :AnalyticData ;
+                  rdfs:domain :TopologicalDescriptors ;
                   rdfs:range xsd:float ;
                   rdfs:comment "Classification of the molecular shape of a compound."@en ;
                   rdfs:label "kappa shape index 1"@en .
@@ -451,7 +487,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#kappaShapeIndex2
 :kappaShapeIndex2 rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :AnalyticData ;
+                  rdfs:domain :TopologicalDescriptors ;
                   rdfs:range xsd:float ;
                   rdfs:comment "Classification of the molecular shape of a compound."@en ;
                   rdfs:label "kappa shape index 2"@en .
@@ -459,7 +495,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#kappaShapeIndex3
 :kappaShapeIndex3 rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :AnalyticData ;
+                  rdfs:domain :TopologicalDescriptors ;
                   rdfs:range xsd:float ;
                   rdfs:comment "Classification of the molecular shape of a compound."@en ;
                   rdfs:label "kappa shape index 3"@en .
@@ -467,7 +503,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#lipinskiRuleOf5Failures
 :lipinskiRuleOf5Failures rdf:type owl:DatatypeProperty ;
-                         rdfs:domain :MolecularDescriptors ;
+                         rdfs:domain :ConstitutionalDescriptors ;
                          rdfs:range xsd:int ;
                          rdfs:comment "Number of failures in the Lipinski rule of five. The Rule of Five is a rule of thumb for the oral bioavailability of a chemical compound."@en ;
                          rdfs:label "Lipinski rule of 5 failures"@en .
@@ -475,7 +511,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#manholdlogp
 :manholdlogp rdf:type owl:DatatypeProperty ;
-             rdfs:domain :AnalyticData ;
+             rdfs:domain :ConstitutionalDescriptors ;
              rdfs:range xsd:float ;
              rdfs:comment "LogP descriptor (Mannhold version)."@en ;
              rdfs:label "manholdlogp"@en .
@@ -507,7 +543,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#molecularWeight
 :molecularWeight rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :MolecularProperties ;
+                 rdfs:domain :MolecularDescriptors ;
                  rdfs:range xsd:float ;
                  rdfs:comment "Molecular weight of a compound."@en ;
                  rdfs:label "molecular weight"@en .
@@ -525,21 +561,21 @@ xsd:date rdf:type rdfs:Datatype .
 :name rdf:type owl:DatatypeProperty ;
       rdfs:domain :Compound ;
       rdfs:range xsd:string ;
-      rdfs:comment "Given name of a compound."@en ;
+      rdfs:comment "Given name of a chemical compound."@en ;
       rdfs:label "name"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#nameTrustLevel
 :nameTrustLevel rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Class ;
+                rdfs:domain :Compound ;
                 rdfs:range xsd:int ;
-                rdfs:comment "Trust level of given compound name."@en ;
+                rdfs:comment "Trust level of given chemical compound name."@en ;
                 rdfs:label "name trust level"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#nplNohScore
 :nplNohScore rdf:type owl:DatatypeProperty ;
-             rdfs:domain :MolecularProperties ;
+             rdfs:domain :MolecularDescriptors ;
              rdfs:range xsd:string ;
              rdfs:comment "NP‐likeness score computed on the nitrolic acid molecule."@en ;
              rdfs:label "NPL-NOH score"@en .
@@ -555,7 +591,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#nplSugarScore
 :nplSugarScore rdf:type owl:DatatypeProperty ;
-               rdfs:domain :MolecularProperties ;
+               rdfs:domain :MolecularDescriptors ;
                rdfs:range xsd:float ;
                rdfs:comment "NP‐likeness score computed on the glycosylated molecule."@en ;
                rdfs:label "NPL sugar score"@en .
@@ -587,7 +623,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#numberSpiroAtoms
 :numberSpiroAtoms rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :AnalyticData ;
+                  rdfs:domain :MolecularProperties ;
                   rdfs:range xsd:int ;
                   rdfs:comment "Number of atoms that are common to two rings in the molecule of a compound."@en ;
                   rdfs:label "number of spiro atoms"@en .
@@ -619,7 +655,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#petitjeanNumber
 :petitjeanNumber rdf:type owl:DatatypeProperty ;
-                 rdfs:domain :MolecularDescriptors ;
+                 rdfs:domain :TopologicalDescriptors ;
                  rdfs:range xsd:float ;
                  rdfs:comment "According to the Petitjean definition, the eccentricity of a vertex corresponds to the distance from the vertex to the most remote vertex in the graph. The distance is obtained from the distance matrix as the count of edges between the two vertices."@en ;
                  rdfs:label "petitjean Number"@en .
@@ -627,7 +663,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#petitjeanShapeGeom
 :petitjeanShapeGeom rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :MolecularDescriptors ;
+                    rdfs:domain :TopologicalDescriptors ;
                     rdfs:range xsd:float ;
                     rdfs:comment "The geometric shape index described Petitjean and Bath et al. respectively. It measures the anisotropy in a molecule."@en ;
                     rdfs:label "petitjean shape geom"@en .
@@ -635,7 +671,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#petitjeanShapeTopo
 :petitjeanShapeTopo rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :MolecularDescriptors ;
+                    rdfs:domain :TopologicalDescriptors ;
                     rdfs:range xsd:float ;
                     rdfs:comment "The topological shape index described Petitjean and Bath et al. respectively. It measures the anisotropy in a molecule."@en ;
                     rdfs:label "petitjean shape topo"@en .
@@ -741,7 +777,7 @@ xsd:date rdf:type rdfs:Datatype .
 :taxonomyReferenceObjects rdf:type owl:DatatypeProperty ;
                           rdfs:domain :Taxonomy ;
                           rdfs:range xsd:string ;
-                          rdfs:comment "TODO."@en ;
+                          rdfs:comment "Taxonomy reference objects."@en ;
                           rdfs:label "taxonomy reference objects"@en .
 
 
@@ -749,13 +785,13 @@ xsd:date rdf:type rdfs:Datatype .
 :textTaxa rdf:type owl:DatatypeProperty ;
           rdfs:domain :Taxonomy ;
           rdfs:range xsd:string ;
-          rdfs:comment "TODO."@en ;
+          rdfs:comment "A textual representation of the taxonomy of a chemical compound."@en ;
           rdfs:label "text Taxa"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#topoPSA
 :topoPSA rdf:type owl:DatatypeProperty ;
-         rdfs:domain :MolecularDescriptors ;
+         rdfs:domain :TopologicalDescriptors ;
          rdfs:range xsd:float ;
          rdfs:comment "Calculation of topological polar surface area based on fragment contributions (TPSA) (Ertl, P. et. al.. J.Med. Chem.. 2000. 43)."@en ;
          rdfs:label "topo PSA"@en .
@@ -771,7 +807,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#tpsaEfficiency
 :tpsaEfficiency rdf:type owl:DatatypeProperty ;
-                rdfs:domain :AnalyticData ;
+                rdfs:domain :TopologicalDescriptors ;
                 rdfs:range xsd:float ;
                 rdfs:comment "Fractional polar surface area descriptor."@en ;
                 rdfs:label "tpsa efficiency"@en .
@@ -795,25 +831,25 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#vertexAdjMagnitude
 :vertexAdjMagnitude rdf:type owl:DatatypeProperty ;
-                    rdfs:domain :AnalyticData ;
+                    rdfs:domain :TopologicalDescriptors ;
                     rdfs:range xsd:float ;
-                    rdfs:comment "Vertex adjacency information TODO"@en ;
+                    rdfs:comment "Descriptor that calculates the vertex adjacency information of a molecule."@en ;
                     rdfs:label "vertex Adj Magnitude"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#wienerPathNumber
 :wienerPathNumber rdf:type owl:DatatypeProperty ;
-                  rdfs:domain :MolecularDescriptors ;
+                  rdfs:domain :TopologicalDescriptors ;
                   rdfs:range xsd:float ;
-                  rdfs:comment "Dataset has it as weiner, but it's from a Prof. Wiener TODO."@en ;
+                  rdfs:comment "Half the sum of all the distance matrix entries."@en ;
                   rdfs:label "wiener path number"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#wienerPolarityNumber
 :wienerPolarityNumber rdf:type owl:DatatypeProperty ;
-                      rdfs:domain :MolecularDescriptors ;
+                      rdfs:domain :TopologicalDescriptors ;
                       rdfs:range xsd:float ;
-                      rdfs:comment "Dataset has it as weiner, but it's from a Prof. Wiener TODO."@en ;
+                      rdfs:comment "Half the sum of all the distance matrix entries with a value of 3."@en ;
                       rdfs:label "wiener polarity number"@en .
 
 
@@ -827,7 +863,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#xlogp
 :xlogp rdf:type owl:DatatypeProperty ;
-       rdfs:domain :MolecularDescriptors ;
+       rdfs:domain :ConstitutionalDescriptors ;
        rdfs:range xsd:float ;
        rdfs:comment "Prediction of logP based on the atom-type method calld XlogP. Requires all hydrogens to be explicit."@en ;
        rdfs:label "x log p"@en .
@@ -835,7 +871,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://coconut-kg.aksw.org/ontology#zagrebIndex
 :zagrebIndex rdf:type owl:DatatypeProperty ;
-             rdfs:domain :MolecularDescriptors ;
+             rdfs:domain :TopologicalDescriptors ;
              rdfs:range xsd:float ;
              rdfs:comment "The sum of the squares of atom degree over all heavy atoms i."@en ;
              rdfs:label "zagreb index"@en .
@@ -845,22 +881,10 @@ xsd:date rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
-###  http://coconut-kg.aksw.org/ontology#AnalyticData
-:AnalyticData rdf:type owl:Class ;
-              rdfs:comment "The analytic data of a compound"@en ;
-              rdfs:label "Analytic data"@en .
-
-
 ###  http://coconut-kg.aksw.org/ontology#Citation
 :Citation rdf:type owl:Class ;
-          rdfs:comment "The compound was mentioned in a article, book or document with a DOI"@en ;
+          rdfs:comment "The chemical compound was mentioned in a article, book or document with a DOI"@en ;
           rdfs:label "Citation"@en .
-
-
-###  http://coconut-kg.aksw.org/ontology#Class
-:Class rdf:type owl:Class ;
-       rdfs:comment "values currently not used but present in the data TODO"@en ;
-       rdfs:label "Unknown"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#Compound
@@ -869,15 +893,33 @@ xsd:date rdf:type rdfs:Datatype .
           rdfs:label "Compound"@en .
 
 
+###  http://coconut-kg.aksw.org/ontology#ConstitutionalDescriptors
+:ConstitutionalDescriptors rdf:type owl:Class ;
+                           rdfs:comment "Constitutional descriptors of a chemical compound."@en ;
+                           rdfs:label "Constitutional descriptors"@en .
+
+
 ###  http://coconut-kg.aksw.org/ontology#DataOriginSource
 :DataOriginSource rdf:type owl:Class ;
-                  rdfs:comment "The origin of a compounds data"@en ;
+                  rdfs:comment "The origin of a chemical compounds data"@en ;
                   rdfs:label "Data origin source"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#Descriptors
+:Descriptors rdf:type owl:Class ;
+             rdfs:comment "Descriptors of a chemical compound."@en ;
+             rdfs:label "Descriptors"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#ElectronicDescriptors
+:ElectronicDescriptors rdf:type owl:Class ;
+                       rdfs:comment "Electronic descriptors of a chemical compound."@en ;
+                       rdfs:label "Electronic descriptors"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#Fingerprint
 :Fingerprint rdf:type owl:Class ;
-             rdfs:comment "Fingerprint and bitstrings of a chemical compound"@en ;
+             rdfs:comment "Fingerprint and bitstrings of a chemical compound."@en ;
              rdfs:label "Fingerprint"@en .
 
 
@@ -887,42 +929,56 @@ xsd:date rdf:type rdfs:Datatype .
              rdfs:label "Geolocation"@en .
 
 
+###  http://coconut-kg.aksw.org/ontology#GeometricalDescriptors
+:GeometricalDescriptors rdf:type owl:Class ;
+                        rdfs:comment "Geometrical descriptors of a chemical compound."@en ;
+                        rdfs:label "Geometrical descriptors"@en .
+
+
 ###  http://coconut-kg.aksw.org/ontology#MolecularDescriptors
 :MolecularDescriptors rdf:type owl:Class ;
-                      rdfs:comment "Descriptors of the molecule"@en ;
-                      rdfs:label "Molecular Descriptors"@en .
+                      rdfs:comment "Molecular descriptors of a chemical compound."@en ;
+                      rdfs:label "Molecular descriptors"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#MolecularFeatures
 :MolecularFeatures rdf:type owl:Class ;
-                   rdfs:comment "Molecular features of a compound"@en ;
+                   rdfs:comment "Molecular features of a chemical compound."@en ;
                    rdfs:label "Molecular features"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#MolecularFragments
+:MolecularFragments rdf:type owl:Class ;
+                    rdfs:comment "Lists of circular fragments (molecular signatures) and functional fragments(ERTL) of a chemical compound."@en ;
+                    rdfs:label "Molecular fragments"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#MolecularProperties
 :MolecularProperties rdf:type owl:Class ;
-                     rdfs:comment "Molecular properties of a compound"@en ;
+                     rdfs:comment "Molecular properties of a chemical compound."@en ;
                      rdfs:label "Molecular properties"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#Taxonomy
 :Taxonomy rdf:type owl:Class ;
-          rdfs:comment "TODO Work in progress, data is shit here"@en ;
+          rdfs:comment "Taxonomy data of a chemical compound."@en ;
           rdfs:label "Taxonomy"@en .
+
+
+###  http://coconut-kg.aksw.org/ontology#TopologicalDescriptors
+:TopologicalDescriptors rdf:type owl:Class ;
+                        rdfs:comment "Topological descriptors of a chemical compound."@en ;
+                        rdfs:label "Topological descriptors"@en .
 
 
 ###  http://coconut-kg.aksw.org/ontology#UniqueIdentifiers
 :UniqueIdentifiers rdf:type owl:Class ;
-                   rdfs:comment "Unique identifiers of a molecular compound like smiles, inchikeys"@en ;
+                   rdfs:comment "Unique identifiers of a chemical compound like smiles and inchikeys."@en ;
                    rdfs:label "Unique Identifiers"@en .
 
 
 ###  http://purl.org/vocommons/voaf#Vocabulary
 <http://purl.org/vocommons/voaf#Vocabulary> rdf:type owl:Class .
-
-
-###  http://www.w3.org/2001/XMLSchema#String
-xsd:String rdf:type owl:Class .
 
 
 #################################################################
@@ -932,18 +988,6 @@ xsd:String rdf:type owl:Class .
 ###  http://coconut-kg.aksw.org/ontology#
 <http://coconut-kg.aksw.org/ontology#> rdf:type owl:NamedIndividual ,
                                                 <http://purl.org/vocommons/voaf#Vocabulary> .
-
-
-#################################################################
-#    Annotations
-#################################################################
-
-:fragments rdfs:comment "List of circular fragments (molecular signatures) of the deglycosylated NP."@en ;
-           rdfs:label "fragments"@en .
-
-
-:fragmentsWithSugar rdfs:comment "List of circular fragments (molecular signatures) of the whole NP."@en ;
-                    rdfs:label "fragments with Sugar"@en .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
